@@ -1,0 +1,18 @@
+.gradient {
+    position: absolute;
+    display: flex;
+
+    top: -5.0rem;
+    left: 19.5rem;
+    width: 22.53981rem;
+    height: 33.07688rem;
+
+    transform: rotate(76.66deg);
+    // flex-shrink: 0;
+    z-index: -1;
+
+    border-radius: 33.07688rem;
+    background: linear-gradient(180deg, rgba(3, 251, 147, 0.20) 0%, rgba(170, 156, 255, 0.20) 100%);
+    filter: blur(200px);
+
+}

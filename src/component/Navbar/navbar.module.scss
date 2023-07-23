@@ -1,0 +1,103 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 4.125rem;
+  padding: 1rem 7.5rem;
+  backdrop-filter: blur(8px);
+}
+
+.navbarLeft {
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  background: linear-gradient(
+    90deg,
+    #ffcf23 0%,
+    #ff6eb4 50.53%,
+    #45b9b0 97.92%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbarCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+  color: #f5f5f5;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.navbarCenter button {
+  position: relative;
+}
+
+.navbarCenter button:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.notificationIcon {
+  display: inline-block;
+  margin-left: 0.12rem;
+  vertical-align: text-top;
+  position: relative; 
+  z-index: 1;
+}
+
+.notificationCircle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 0.53844rem;
+  height: 0.5185rem;
+  padding: 0.125rem;
+  border-radius: 50%;
+  background-color: red;
+  z-index: 2;
+}
+
+.notificationNumber {
+  color: #FFF;
+  font-size: 0.5rem;
+  font-style: normal;
+  font-weight: 700;
+  z-index: 3;
+}
+
+
+.navbarRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 2.125rem;
+  font-weight: 500;
+}
+
+.launchButton {
+  background: linear-gradient(#141414, #141414) padding-box,
+              linear-gradient(135deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%) border-box;
+  border: 1px solid transparent;
+  border-radius: 6.25rem;
+  padding: 0 1rem;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.launchButton p {
+  background: linear-gradient(135deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

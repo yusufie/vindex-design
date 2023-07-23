@@ -1,0 +1,87 @@
+.capital {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5.38rem 7.5rem 5.38rem 7.5rem;
+  margin-top: 1.43rem;
+  background-blend-mode: lighten;
+  background-color: #17191E;
+}
+
+.xcapital {
+  position: absolute;
+  z-index: 1;
+}
+
+.circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30.375rem;
+  height: 30.375rem;
+
+  background: linear-gradient(#17191E, #17191E) padding-box,
+  linear-gradient(210deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%) border-box;
+  border: 1.19rem solid transparent;
+  border-radius: 50%;
+
+  transform: rotate(-90deg);
+}
+
+.iconContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: linear-gradient(120deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%);
+  cursor: pointer;
+  box-shadow: 4px 4px 34px 0px rgba(108, 108, 108, 0.08);
+}
+
+.iconContainer:nth-child(1) {
+  transform: rotate(0deg) translate(240px) rotate(90deg);
+}
+
+.iconContainer:nth-child(2) {
+  transform: rotate(60deg) translate(240px) rotate(30deg);
+}
+
+.iconContainer:nth-child(3) {
+  transform: rotate(120deg) translate(240px) rotate(-30deg);
+}
+
+.iconContainer:nth-child(4) {
+  transform: rotate(180deg) translate(240px) rotate(-90deg);
+}
+
+.iconContainer:nth-child(5) {
+  transform: rotate(240deg) translate(240px) rotate(-150deg);
+}
+
+.iconContainer:nth-child(6) {
+  transform: rotate(300deg) translate(240px) rotate(-210deg);
+}
+
+.container {
+  position: absolute;
+  display: none;
+  z-index: 3;
+}
+
+.icon:hover + .container,
+.container:hover {
+  display: block;
+}

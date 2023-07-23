@@ -1,0 +1,87 @@
+.plaza {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.38rem 7.5rem 5.38rem 7.5rem;
+  gap: 2.56rem;
+}
+
+.plaza h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  font-weight: 500;
+
+  background: linear-gradient(90deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.875rem;
+
+  width: 39.75rem;
+height: 18.125rem;
+padding: 2rem 2.5rem;
+
+  border-radius: 1.5rem;
+  border: 1px solid #282828;
+  background: #1d2026;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.info p {
+  color: #949494;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.75031rem;
+}
+
+.topic {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.topic img {
+  margin-right: 1rem;
+}
+
+.topic span {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 140.023%;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.625rem;
+  width: auto;
+  margin-left: 2rem;
+  padding: 0.8125rem 1.5rem;
+  background: linear-gradient(#141414, #141414) padding-box,
+              linear-gradient(135deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%) border-box;
+  border: 1px solid transparent;
+  border-radius: 6.25rem;
+
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.button span {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1rem;
+
+  background: linear-gradient(135deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

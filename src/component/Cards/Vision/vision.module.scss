@@ -1,0 +1,47 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 4.38rem 7.5rem 4.38rem 7.5rem;
+    margin-bottom: 0.55rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+    width: 24.25rem;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+  
+    background: linear-gradient(#1D2026, #1D2026) padding-box,
+                linear-gradient(110deg, #FFCF23 0%, #FF6EB4 50.53%, #45B9B0 97.92%) border-box;
+  
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .info {
+    display: inline-block;
+  }
+  
+  .info h1 {
+      color: #FFF;
+      font-size: 1.25rem;
+      font-weight: 500;
+      letter-spacing: -0.0375rem;
+  }
+  
+  .info p {
+      color: #949494;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.35025rem ;
+      letter-spacing: -0.03rem;
+  }

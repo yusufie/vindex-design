@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #17191e;
+  color: #fff;
+}
+
+.defi {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+
+.eligible {
+  margin: 0.81rem 0 0.81rem 0;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+
+.noncbdc {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+
+.claim {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+
+.hero {
+  display: flex;
+  height: 35.5rem;
+  border-bottom: 1px solid #282828;
+  border-top: 1px solid #282828;
+}

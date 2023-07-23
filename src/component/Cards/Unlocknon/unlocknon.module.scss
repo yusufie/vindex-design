@@ -1,0 +1,121 @@
+.unlocknon {
+  display: inline-flex;
+  flex-direction: column;
+  width: 29rem;
+  height: 17.875rem;
+  padding: 1.5rem 1.5rem 2rem 1.5rem;
+  /* gap: 0.625rem; */
+
+  background: linear-gradient(#1d2026, #1d2026) padding-box,
+    linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%)
+      border-box;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+}
+
+.header h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.header p {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.unlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.unlockInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.unlockInfo h1 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.unlockInfo span {
+  color: #a6a0bb;
+  font-size: 2.125rem;
+  font-weight: 700;
+  line-height: 2.625rem;
+}
+
+.unlockInfo p {
+  color: #a6a0bb;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.unlockButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.unlockButton button {
+  display: flex;
+  padding: 0.75rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  border-radius: 6.25rem;
+  background: linear-gradient(
+    120deg,
+    #ffcf23 0%,
+    #ff6eb4 50.53%,
+    #45b9b0 97.92%
+  );
+}
+
+.unlockButton span {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.footerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  padding: 0.75rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  border-radius: 6.25rem;
+  background: #2f2a3c;
+}
+
+.footerButton span {
+  color: #1c1924;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}

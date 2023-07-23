@@ -1,0 +1,19 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-park-solid:stock-market">
+<g id="Mask group">
+<mask id="mask0_646_4883" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="3" width="38" height="42">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M6 20H14V34H6V20ZM20 14H28V40H20V14Z" fill="white" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_2" d="M24 44V40" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M34 12H42V21H34V12Z" fill="white" stroke="white" stroke-linejoin="round"/>
+<path id="Vector_4" d="M10 20V10M38 34V21M38 12V4" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_646_4883)">
+<path id="Vector_5" d="M0 0H48V48H0V0Z" fill="#1F1F1F"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,482 @@
+/* Slider Starts */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+  }
+  
+  .swiper-slide img {
+    display: block;
+  }
+  
+  .swiper-pagination {
+    position: relative;
+    text-align: start;
+    transition: 0.3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+    top: 8rem;
+    margin-top: -8.25rem;
+    margin-left: 7.5rem;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 5rem;
+    height: 0.75rem;
+    border-radius: 6.25rem;
+    background: #252830;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .swiper-pagination-bullet:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: linear-gradient(
+      90deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+  }
+  
+  .define {
+    background-image: url("/image/define.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: right;
+    width: 100%;
+    background-color: #17191e;
+    background-blend-mode: lighten;
+  }
+  
+  .defineInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding-top: 7.62rem;
+    padding-left: 7.5rem;
+  }
+  
+  .defineInfo h1 {
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .defineInfo h2 {
+    background: linear-gradient(
+      164deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .defineInfo .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem 0 4.12rem 0;
+    gap: 1.5rem;
+  }
+  
+  .defineInfo .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.625rem;
+    width: auto;
+    padding: 0.8125rem 1.5rem;
+    background: linear-gradient(#141414, #141414) padding-box,
+      linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%)
+        border-box;
+    border: 1px solid transparent;
+    border-radius: 6.25rem;
+  
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+  
+    background: linear-gradient(
+      135deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .launchpad {
+    background-image: url("/image/launchpad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    width: 100%;
+  }
+  
+  .launchpadInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding-top: 7.62rem;
+    padding-left: 7.5rem;
+  }
+  
+  .launchpadInfo h1 {
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .launchpadInfo h2 {
+    background: linear-gradient(
+      164deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .launchpadInfo .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem 0 4.12rem 0;
+    gap: 1.5rem;
+  }
+  
+  .launchpadInfo .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.625rem;
+    width: auto;
+    padding: 0.8125rem 1.5rem;
+    background: linear-gradient(#141414, #141414) padding-box,
+      linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%)
+        border-box;
+    border: 1px solid transparent;
+    border-radius: 6.25rem;
+  
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+  
+    background: linear-gradient(
+      135deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .journey {
+    background-image: url("/image/journey.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    width: 100%;
+  }
+  
+  .journeyInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding-top: 7.62rem;
+    padding-left: 7.5rem;
+  }
+  
+  .journeyInfo h1 {
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .journeyInfo h2 {
+    background: linear-gradient(
+      164deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .journeyInfo .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem 0 4.12rem 0;
+    gap: 1.5rem;
+  }
+  
+  .journeyInfo .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.625rem;
+    width: auto;
+    padding: 0.8125rem 1.5rem;
+    background: linear-gradient(#141414, #141414) padding-box,
+      linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%)
+        border-box;
+    border: 1px solid transparent;
+    border-radius: 6.25rem;
+  
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+  
+    background: linear-gradient(
+      135deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .together {
+    background-image: url("/image/together.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: right;
+    width: 100%;
+    background-color: #17191e;
+    background-blend-mode: lighten;
+  }
+  
+  .togetherInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding-top: 7.62rem;
+    padding-left: 7.5rem;
+  }
+  
+  .togetherInfo h1 {
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .togetherInfo h2 {
+    background: linear-gradient(
+      164deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .togetherInfo .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem 0 4.12rem 0;
+    gap: 1.5rem;
+  }
+  
+  .togetherInfo .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.625rem;
+    width: auto;
+    padding: 0.8125rem 1.5rem;
+    background: linear-gradient(#141414, #141414) padding-box,
+      linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%)
+        border-box;
+    border: 1px solid transparent;
+    border-radius: 6.25rem;
+  
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+  
+    background: linear-gradient(
+      135deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .vindexpro {
+    background-image: url("/image/vindexpro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: right;
+    width: 100%;
+    background-color: #17191e;
+    background-blend-mode: lighten;
+  }
+  
+  .vindexproInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding-top: 7.62rem;
+    padding-left: 7.5rem;
+  }
+  
+  .vindexproInfo h1 {
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .vindexproInfo h1 span {
+    color: #9c9c9c;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .vindexproInfo h2 {
+    background: linear-gradient(
+      164deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 135.023%;
+  }
+  
+  .vindexproInfo .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem 0 4.12rem 0;
+    gap: 1.5rem;
+  }
+  
+  .vindexproInfo .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.625rem;
+    width: auto;
+    padding: 0.8125rem 1.5rem;
+    background: linear-gradient(#141414, #141414) padding-box,
+      linear-gradient(135deg, #ffcf23 0%, #ff6eb4 50.53%, #45b9b0 97.92%)
+        border-box;
+    border: 1px solid transparent;
+    border-radius: 6.25rem;
+  
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+  
+    background: linear-gradient(
+      135deg,
+      #ffcf23 0%,
+      #ff6eb4 50.53%,
+      #45b9b0 97.92%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .vindexproInfo input {
+    width: 19.0625rem;
+    height: 2.625rem;
+    padding: 0.8125rem 1rem;
+  
+    border-radius: 0.5rem;
+    background: #24272e;
+  }
+  
+  .vindexproInfo input::placeholder {
+    color: #8c8c8c;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 100%;
+  }
+  
+  /* Slider Ends */
