@@ -5,7 +5,8 @@ https://vindex-design.vercel.app/
 https://www.figma.com/file/f0uHPqMFOXmLXsmAX2inAu/Vindex-Design?type=design&t=KO2jLQZNkHDrRoY7-6
 
 # Vindex-Design
-A project that showcases the implementation of a decentralized application (DApp) that allows users to mint NFTs and sell them on a marketplace. The project is built using the following technologies: Next.js, TypeScript, SCSS,
+The Vindex-Design project aims to streamline the process of turning a Figma design into functional code for desktop devices.
+The project is built using the following technologies: Next.js, TypeScript, SCSS, and Swiper.
 ![Verlith-Design](./public/image/readme.png)
 
 ## Table of Contents
