@@ -1,5 +1,5 @@
 # Vindex-Design Live Demo
-https://vindex-design.vercel.app/
+https://vindex-design.netlify.app/
 
 # Figma Design
 https://www.figma.com/file/f0uHPqMFOXmLXsmAX2inAu/Vindex-Design?type=design&t=KO2jLQZNkHDrRoY7-6
